@@ -12,6 +12,33 @@
         int turisticos;         // Número de pontos turísticos
 
     printf("Digite o nome do Estado:(A-H) \n");
-    scanf("%s", &estado);
-    printf("Estado: %s\n", estado);
+    scanf("%c", &estado);
+
+    printf("Digite o Código da Carta: \n");
+    scanf("%s", &codigo);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &NomeDaCidade);
+
+    printf("Digite a população da cidade: \n");
+    scanf("%d", &populacao);
+
+    printf("Digite a área da cidade em km²: \n");
+    scanf("%f", &area);
+
+    printf("Digite o PIB da cidade: \n");
+    scanf("%f", &pib);
+
+    printf("Digite o Número de pontos Turisticos: \n");
+    scanf("%d", &turisticos);
+
+    printf("Estado: %c \n", estado);
+    printf("Código: %s \n", codigo);
+    printf("Nome da Cidade: %s \n", NomeDaCidade);
+    printf("População: %d \n", populacao);
+    printf("Àrea: %f\n", area);
+    printf("PIB: %f bilhões de pessoas\n", pib);
+    printf("Número de Pontos Turísticos: %d pontos turísticos. \n", turisticos);
+    
     }
+
