@@ -31,14 +31,15 @@
 
     printf("Digite o Número de pontos Turisticos: \n");
     scanf("%d", &turisticos);
-
+      \\ Dados da carta.
+    printf("Carta1: \n");
     printf("Estado: %c \n", estado);
     printf("Código: %s \n", codigo);
     printf("Nome da Cidade: %s \n", NomeDaCidade);
     printf("População: %d \n", populacao);
-    printf("Àrea: %f\n", area);
+    printf("Àrea: %f km² \n", area);
     printf("PIB: %f bilhões de pessoas\n", pib);
-    printf("Número de Pontos Turísticos: %d pontos turísticos. \n", turisticos);
+    printf("Número de Pontos Turísticos: %d \n", turisticos);
     
     }
 
