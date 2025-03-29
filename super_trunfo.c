@@ -85,6 +85,6 @@
     printf("PIB:%f bilhões de pessoas \n", pib2);
     printf("Número de Pontos Turísticos: %d \n", turisticos2);
 
-
+     return 0;
     
     }
